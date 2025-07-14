@@ -1,0 +1,18 @@
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def user_login():
+    return render_template("user_login.html")
+
+# @app.route("/")
+# def hello_world():
+#     return "<p>Hello, World!</p>"
+
+# @app.route("/")
+# def hello_world():
+#     return "<p>Hello, World!</p>"
+
+if __name__ == "__main__":
+    app.run(debug = True)
