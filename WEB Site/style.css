@@ -1,0 +1,207 @@
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            /* background-color: #c8102e; */
+            background-color: #8B0000;
+            padding: 15px 30px;
+            color: white;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-container .logo {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            /* background: url('https://images.metmuseum.org/CRDImages/ad/original/DT1567.jpg') no-repeat center/cover; */
+            /* background-color: #333;
+            color: white; */
+            background-color: #FAF3E0;
+            color: #2C2C2C;
+
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            /* background-color: #c8102e; */
+            background-color: #C0392B;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .hero .btn.outline {
+            background: none;
+            /* border: 2px solid white; */
+            border: 2px solid #C0392B;
+            color: #C0392B;
+
+        }
+
+        .sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 20px;
+            padding: 40px 30px;
+            /* background-color: #fff; */
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .section-block {
+            /* background-color: #f1f1f1; */
+            background-color: #F1F1F1;
+            color: #2C2C2C;
+            padding: 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .section-block:hover {
+            /* background-color: #e3e3e3; */
+            background-color: #E3E3E3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            /* background-color: #eee; */
+            background-color: #ECECEC;
+            color: #555555;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+
+        /* body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #c8102e;
+    padding: 15px 30px;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('https://images.metmuseum.org/CRDImages/ad/original/DT1567.jpg') no-repeat center/cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #c8102e;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.hero .btn.outline {
+    background: none;
+    border: 2px solid white;
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    padding: 40px 30px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.section-block {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.section-block:hover {
+    background-color: #e3e3e3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    margin-top: 40px;
+    font-size: 14px;
+} */
